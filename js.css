@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  z-index:10;
+}
+.active{
+  border-bottom:3px solid black;
+}
+html
+{
+  scroll-behavior:smooth;
+
+}
+title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+  display:flex;
+  align-items:center;
+}
+.home{
+margin-left:50px;
+}
+
+
+body{
+background-color:#FDDB27FF;
+  flex-direction:column;
+min-height:100vh;
+  overflow-x:hidden;
+
+}
+#navbar{
+  display:flex;
+  background:transparent;
+  align-items:center;
+  width:100%;
+  position:fixed;
+  top:0;
+  overflow:hidden;
+  backface-visibility:hidden;
+  left:0;
+  z-index:1000;
+  margin-top:20px;
+  height:70px;
+}
+
+.side{
+  margin-left:auto;
+}
+.home{
+  margin-left:auto;
+  margin-right:10px;
+}
+.icon-mar{
+  margin-right:auto;
+}
+.logo-mar{
+  margin-left:40px;
+  padding-top:12px;
+ 
+}
+
+ li{
+   display:inline-block;
+   margin-top:0px;
+   padding-left:15px;
+   padding-top:10px;
+  padding-right:15px;
+   margin-right:15px;
+   padding:10px 10px 10px 10px;
+}
+.icon-mar li:nth-of-type(1){
+  margin-right:0px;
+}
+
+a{
+  text-decoration:none;
+  font-size:18px;
+  font-family: 'Creepster', cursive;
+  padding-left:4px;
+  margin:0px;
+  padding-right:4px;
+  color:#000000;
+  letter-spacing:1px;
+  text-align:center;
+}
+a:hover{
+border-bottom:3px solid #000000;
+}
+
+#home{
+  margin-top:140px;
+  height:590px;
+  box-sizing:border-box;
+  display:flex;
+  color:#fff;
+  font-weight:1000;
+  flex-flow:row wrap; 
+  justify-content:space-around;
+  padding-top:90px;
+  z-index:-1;
+  font-family: 'Rampart One', cursive;
+  overflow:hidden;
+  flex-wrap:wrap;
+}
+h1{
+   font-size:2.75em;
+   color:#000;
+}
+ h3
+{
+  font-size:1.3em;
+  color:#000;
+}
+div.text{
+  margin-right:auto;
+  padding:20px;
+  padding-left:60px;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+.cardimg{
+  border-radius: 8px;
+}
+.card{
+  width:300px;
+  height:305px;
+  box-sizing:border-box;
+  margin-top:30px;
+  margin-right:130px;
+  margin-bottom:30px;
+  border-radius: 10px;
+}
+#about{
+  padding-left:60px;
+  padding-top:85px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  display:flex;
+  height:600px;
+  justify-content:space-between;
+}
+/*inside description items icons*/
+.d{
+  margin-top:30px;
+  margin-bottom:40px;
+  display:flex;
+}
+.b{
+   font-family: 'Kanit', sans-serif;
+}
+
+#footer{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:row-reverse;
+  position:relative;
+  padding:10px;
+  bottom: 0;
+  width: 100%;
+  margin-top:auto;
+  margin-bottom: -30px;
+}
+.foot-er{
+  margin-left:40px;
+}
+.list{
+  padding-top:10px;
+  padding-left:10px;
+  margin:0;
+
+}
+.mail{
+  font-family: 'Allison', cursive;
+  font-size:1.6em;
+  margin-top:8px;
+  margin-right:5px;
+}
+.mail-align{
+  position:absolute;
+  margin-top:8px;
+}
+.mar{
+  margin-top:0px;
+  padding-top:1.1em;
+  
+}
+#num{
+  margin-top:15px;
+}
+.free{
+margin-right:30px;
+max-width:100%;
+}
+.about-me{
+    display:none;
+  }
+.source{
+  padding:10px;
+  margin-top:0px;
+  margin-left:20px;
+  color:#000;
+}
+.code{
+padding:10px;
+  display:flex;
+  align-items:center;
+}
+.thanks{
+  font-size:1.3em;
+  margin-top:30px;
+  color:#000;
+ font-family: 'Architects Daughter', cursive;
+}
+#watchlist{
+min-height:100vh;
+  font-family: 'Staatliches', cursive;
+ margin-bottom:50px;
+}
+.row{
+  height:auto;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+.poster{
+max-width:190px;
+  height:100%;
+  margin:auto;
+}
+.col{
+  display:flex;
+  flex-direction:row;
+  box-sizing:border-box;
+  width:450px;
+  height:281px;
+  margin-right:0px;
+  margin-left:50px;
+  font-size:18px;
+  margin-bottom:35px;
+}
+.clap{
+width:30px;
+margin-right:3px;
+}
+.extra{
+width:25px;
+  padding-left:5px;
+    margin-right:2px;
+}
+.rating{
+width:28px;
+padding-left:4px;
+margin-left:-2px;
+margin-right:5px;
+}
+.imdb{
+width:31px;
+padding-left:3px;
+margin-left:-3px;
+margin-right:2px;
+}
+.actor{
+width:26px;
+margin-right:1px;
+}
+.play{
+width:25px;
+}
+.netflix{
+  width:30px;
+  margin-top:0px;
+}
+.details{
+  padding-left:5px;
+  display:flex;
+  flex-direction:column;
+  font-size:18px;
+  font-family: 'Staatliches', cursive;
+
+}
+.title{
+margin-left:25px;
+padding:0px;
+font-size:18px;
+}
+.title1{
+margin-left:20px;
+padding:0px;
+}
+.mar{
+  margin-bottom: 20px;
+  padding-top:4px;
+  margin-left:6px;
+  display:flex;
+  align-items:center;
+  box-sizing:border-box;
+}
+.tag{
+  text-align:center;
+  color:black;
+  margin:auto;
+  width:280px;
+  border-bottom:3px solid black;
+  font-family: 'Rampart One', cursive;
+  margin-bottom:70px;
+  font-weight:bold;
+  font-size:30px;
+}
+#playlist{
+  height:auto;
+  margin:30px;
+  
+}
+.playlist-col{
+  background:black;
+  width:auto;
+  height:280px;
+  display:flex;
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:800;
+  border-radius:10px;
+  box-sizing:border-box;
+  text-transform: capitalize;
+  margin-bottom:30px;
+}
+.column1{
+  width:18%;
+  margin:20px;
+
+}
+.column2{
+  width:39%;
+  box-sizing:border-box;
+  
+}
+.pic{
+  width:100%;
+  height:100%; 
+  object-fit:cover;
+}
+.songs{
+ margin:45px;
+  margin-right:10px;
+  margin-top:35px;
+}
+.song-name{
+  word-spacing:2px;
+  letter-spacing: 1px;
+  font-size:34px;
+  margin-bottom:23px;
+  margin-left:2px;
+}
+.song-info{
+  color:#C0C0C0;
+  letter-spacing: 1px;
+  display:flex;
+  align-items:center;
+  font-size:18px;
+}
+.album-icon{
+   margin-right:8px;
+}
+.time{
+  color:#C0C0C0;
+  margin-top:25px;
+  margin-left:1px;
+  display:flex;
+  align-items:center;
+}
+.play-btn{
+  background:#fff;
+  margin-left:0px;
+  margin-right:10px;
+  border:none;
+  outline:none;
+  font-weight:bold;
+  padding: 10px 18px 8px 20px;
+  border-radius:2px;
+  box-sizing:border-box;
+  margin-bottom:5px;
+  margin-top:10px;
+}
+.play-icon{
+  margin-right:15px;
+}
+button{
+    display:flex;
+    align-items:center;
+ 
+}
+.btns{
+  display:flex; 
+  margin-left:-2px;
+  margin-top:28px;
+}
+.play-link{
+  text-decoration:none;
+}
+.play-btn:hover{
+ background:#FDDB27FF;
+  cursor:pointer;
+}
+.playlist-col3{
+  display:flex;
+  flex-wrap:wrap;
+  width:50%;
+}
+.playlist-poster{
+  width:70px;
+  height:70px;
+  margin-right:15px;
+  object-fit:cover;
+}
+.fav-list{
+  display:flex;
+  width:280px;
+  height:80px;
+  margin:40px 20px 40px 30px;
+  
+}
+.song-wish-name{
+  margin-top:14px;
+  letter-spacing:1px;
+}
+.year{
+  color:#C0C0C0;
+  font-size:14px;
+  margin-top:5px;
+}
+.playlist-order{
+  display:flex;
+  flex-wrap:wrap;
+
+}
+#bottom-card{
+  margin-top:20px;
+}
+svg{
+  box-sizing:border-box;
+  margin-right:6px;
+  margin-left:-1px;
+}
+.team-btn{
+ padding:10px 16px;
+  border:none;
+  background:#000;
+  color:#fff;
+ border-radius:5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-left:-15px;
+}
+.playlist-poster:hover{
+  opacity:0.4;
+  
+}
+#pic-color{
+filter: grayscale(100%);
+}
+
+.team-btn:hover{
+background:#fff;
+  color:#000;
+  font-weight:bold;
+}
+.playlist-caption{
+  text-align:center;
+  color:#000;
+  margin:auto;
+  width:250px;
+  border-bottom:3px solid #000;
+  font-family: 'Rampart One', cursive;
+  margin-bottom:70px;
+  font-weight:bold;
+  font-size:30px;
+}
+.playlist-singles
+{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:3em;
+  background: blanchedalmond;
+  text-transform: capitalize;
+  font-family: 'Roboto Condensed', sans-serif ;
+}
+.single-song{
+  display: flex;
+  column-gap: 0.5em;
+
+}
+.single-song-img{
+  max-width:90px;
+
+  height:90px;
+}
+.single-song-info{
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color:black;
+}
+.single-play-btn{
+  border :none;
+  padding: 8px 16px 5px 10px;
+margin-top: 10px;  
+background: balck;
+color: black;
+}
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
+  #home{
+margin-top:50px;
+    height:auto;
+    flex-direction:column-reverse;
+    
+  }
+  .home{
+    margin-left:auto;
+    margin-right:-12px;
+    font-size:2em;
+  }
+  h1{
+   font-size:2em;
+   color:black;
+   
+}
+   h3
+{
+  font-size:1.1em;
+  color:black;
+}
+  .logo-mar{
+    margin-left:0px;
+}
+  .text{
+    width:100vw;
+    margin-top:-12px;
+  margin-right:0px;
+    margin-bottom:20px;
+    padding:0px;
+  }
+  .thanks{
+    margin-top:14px;
+    font-family: 'Rampart One', cursive;
+    font-size:1em;
+  }
+  .code{
+  padding:5px;
+  display:flex;
+  align-items:center;
+}
+  .free{
+    display:none;
+  }
+  .side{
+display:none;
+  }
+  .ironman{
+    width:40px;
+  }
+  .card{
+    margin-bottom:5px;
+    margin-top:-40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    
+  }
+  .cardimg{
+    border-radius:10px;
+    margin-left:-5px;
+     margin-right:5px;
+    padding-left:auto;
+    padding-right:auto;
+}
+  .b{
+    font-size:1em;
+  }
+ #about{
+   padding-left:15px;
+   padding-top:10px;
+   height:auto;
+   margin-bottom:30px;
+  }
+  .about-me{
+    display:block;
+    text-align:center;
+    font-family: 'Rampart One', cursive;
+    width:70px;
+    margin:auto;
+    box-sizing:border-box;
+    border-bottom:3px solid black;
+  }
+  .d{
+     margin-bottom:20px;
+  }
+  #navbar{
+    margin-top:10px;
+  }
+  h1 ,h3, .thanks,.source{
+    margin-left:-35px;
+  }
+}
